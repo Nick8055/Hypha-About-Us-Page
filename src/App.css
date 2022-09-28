@@ -27,11 +27,11 @@ body{
   font-size: 0.57em;
   font-family: Font2;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 80px;
 }
 
 .paragraph{
-  color: #04ADBF;
+  color: #333333;
   font-size: 0.18em;
   font-family: Font3;
   text-align: center;
@@ -54,8 +54,21 @@ body{
 
 .slogan{
   letter-spacing: 5px;
+  color:#04ADBF;
 }
 
+.dot{
+  font-size: 0.24em;
+  color:#04ADBF;
+  padding: 20px;
+}
+
+.slogan2{
+  color:#04ADBF;
+  letter-spacing: 5px;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
 
 .pic1Container{
   /* background-color: red; */
@@ -94,7 +107,7 @@ body{
   font-size: 0.35em;
   font-family: Font2;
   text-align: center;
-  padding: 50px;
+  padding: 100px;
 }
 
 .blueContainerSection{
@@ -148,6 +161,8 @@ body{
 
 .TeamSection{
   background: #04ADBF;
+  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .TeamTitle{
@@ -156,6 +171,7 @@ body{
   font-size: 0.35em;
   text-align: center;
   padding: 50px;
+  padding-top: 75px;
 }
 
 .TeamMembers{
@@ -195,13 +211,13 @@ body{
   color: white;
 }
 
-.lastSection{
+.valueSection{
   padding-top: 50px;
-   display: grid;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));  
   width: 75%;
   margin-left: 12.5%;
-  text-align: center;
+  margin-bottom: 100px;
 }
 
 .valueContainer{
@@ -210,7 +226,7 @@ body{
   border-radius: 8px;
   position: relative;
   display: inline-block;
-  margin: 40px;
+  margin: 40px auto;
 }
 
 .valueHeading{
@@ -224,8 +240,53 @@ body{
 
 .valueDesc{
   font-family: Font3;
-  color: black;
+  color:  #333333;
   font-size: 0.18em;
-  text-align: center;
+  text-align: left;
   padding: 50px;
+}
+
+.lastSection{
+  background-color: #E9F2EE;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  position: relative;
+}
+
+.lastTitle{
+  font-size: 0.5em;
+  font-family: Font3;
+}
+
+.joinUsButton{
+ width: 150px;
+ height: 60px;
+ color: #FFFFFF;
+ background: #04ADBF;
+ border-style: none;
+ border-radius: 8px;
+ font-family: Font2;
+ font-size: 0.24em;
+ cursor: pointer;
+ transition: all 0.3s ease;
+}
+
+.joinUsButton:hover{
+  color: #04ADBF;
+  background: white;
+  /* border-style: solid;
+  border-color: #04ADBF;
+  border-width: 2px; */
+  transition: all 0.3s ease;
+}
+
+.greyLine{
+  border-style: solid;
+  width: 110px;
+  color: #D9D9D9;
+  border-width: 4px;
+  position: absolute;
+  right: 10%;
+  top: 20%;
 }

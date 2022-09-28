@@ -38,7 +38,10 @@ const App = () => {
       <div className='paragraph slogan'>Evolve Together</div>
       <div className='paragraph para2'>Perspectives have changed. And so have our needs. People around the world are looking forward to an improved quality of life. They focus not just on being illness-free but also on their overall well-being. Patients want access to personalised care and Doctors are eager to provide it to them.</div>
       <div className='paragraph para3'>While healthcare systems are getting modernised and fighting illnesses better than ever, incorporating patient-first experiences is still not a routine practice. Because, unlike top hospitals that leverage Artificial Intelligence to develop their care models, Clinicians lack access to the right tools. That is, until we decided to bridge modern technology with people’s needs - all for a stronger tomorrow.</div>
-    
+      <div className='paragraph dot'>●</div>
+      <div className='paragraph slogan2'>Redefining Healthcare</div>
+      <div className='paragraph para3'>Realizing the need to provide patients with the care and relief they deserve, led us to develop Hypha.<br></br><br></br>So, we ventured into the market as a state-of-the-art clinic management software that reduces the Clinicians’ burden by simplifying non-medical activities. It keeps patient information and records in place, making processes easier for doctors, while involving patients in the care they receive.</div>
+
       <div className='secondContainer'>
         <div className='title2'>Why do we call it Hypha?</div>
         <div className='paragraph para4'>Derived from Hyphae - the Greek word for ‘web’ Hypha symbolises a growing network of healthcare providers and patients. Mirroring the strength of a mycelial network, the platform is designed to provide a collaborative experience by aiding growth and communication.
@@ -76,13 +79,22 @@ const App = () => {
         </div>
       </div>
 
-      <div className='lastSection'>
-        {/* <div className='title4'>Our Values</div> */}
+      <div className='title4'>Our Values</div> 
+
+      <div className='valueSection'>
         <OurValues valueHeading={'Explore'} valueDesc={'The path towards achieving excellence is not easy. Be courageous and finish what you’ve undertaken with utmost determination.'}></OurValues>
-        <OurValues valueHeading={'Explore'} valueDesc={'The path towards achieving excellence is not easy. Be courageous and finish what you’ve undertaken with utmost determination.'}></OurValues>
-        <OurValues valueHeading={'Explore'} valueDesc={'The path towards achieving excellence is not easy. Be courageous and finish what you’ve undertaken with utmost determination.'}></OurValues>
-        <OurValues valueHeading={'Explore'} valueDesc={'The path towards achieving excellence is not easy. Be courageous and finish what you’ve undertaken with utmost determination.'}></OurValues>
+        <OurValues valueHeading={'Evolve'} valueDesc={'We believe in collaborating and learning from one another. Because, excellence is driven better when you’re together.'}></OurValues>
+        <OurValues valueHeading={'Encourage'} valueDesc={'Your breakthroughs at the workplace promote personal growth. But more importantly, they inspire others to grow.'}></OurValues>
+        <OurValues valueHeading={'Ensure'} valueDesc={'Insert <damn> here. Take accountability for your work and everything you build.'}></OurValues>
       </div>
+
+      <div className='lastSection'>
+        <div className='greyLine'></div>
+        <div className='title4 lastTitle'>Committed to Care for a Healthier Future?</div>
+        <button className='joinUsButton'>Join Us</button>
+      </div>
+
+
 
     </div>
   );
