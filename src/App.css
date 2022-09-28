@@ -1,38 +1,231 @@
-.App {
+body{
+  font-size: 100px;
+}
+
+@font-face {
+  font-family: Font1;
+  src: url(MULI-BLACK\ \(1\).TTF);
+}
+
+@font-face {
+  font-family: Font2;
+  src: url(MULI-BOLD.TTF);
+}
+
+@font-face {
+  font-family: Font3;
+  src: url(MULI-SEMIBOLD.TTF);
+}
+
+@font-face {
+  font-family: Font4;
+  src: url(MULI-EXTRALIGHT.TTF);
+}
+
+.mainTitle{
+  color: #04ADBF;
+  font-size: 0.57em;
+  font-family: Font2;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.paragraph{
+  color: #04ADBF;
+  font-size: 0.18em;
+  font-family: Font3;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 2;
+  padding: 40px;
+}
+
+.para1{
+  width: 40%;
+}
+
+.para2{
+  width: 60%;
+}
+
+.para3{
+  width: 60%;
+}
+
+.slogan{
+  letter-spacing: 5px;
+}
+
+
+.pic1Container{
+  /* background-color: red; */
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pic1{
+  width: 400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.secondContainer{
+  background: #E9F2EE;
   display: flex;
-  flex-direction: column;
+  margin-top: 50px;
+}
+
+.title2{
+  color: #04ADBF;
+  font-family: Font2;
+  font-size: 0.24em;
+  width: 50%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* background-color: red;; */
+}
+
+.para4{
+  width: 28%;
+  text-align: left;
+  /* padding-top: 50px; */
+}
+
+.title3{
+  color: #04ADBF;
+  font-size: 0.35em;
+  font-family: Font2;
+  text-align: center;
+  padding: 50px;
+}
+
+.blueContainerSection{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); 
+  place-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.blueContainer{
+  background: #04ADBF;
+  color: white;
+  font-size: 0.22em;
+  margin: 20px;
+  font-family: Font3;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.blueContainerContent{
+  width: 70%;
+  margin: auto auto;
+}
+
+.section4{
+  display: grid;
+  /* grid-template-rows: 1fr 1fr; */
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.title4{
+  color: #04ADBF;
+  font-size: 0.35em;
+  font-family: Font2;
+  text-align: center;
+  /* padding: 50px; */
+  align-self: center;
+  justify-self: center;
+}
+
+.para5{
+  width: 50%;
+  text-align: left;
+  /* padding-top: 50px; */
+}
+
+.TeamSection{
+  background: #04ADBF;
+}
+
+.TeamTitle{
+  color: white;
+  font-family: Font2;
+  font-size: 0.35em;
+  text-align: center;
+  padding: 50px;
+}
+
+.TeamMembers{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.TeamImageContainer{
+  position: relative;
+  display: inline-block;
+}
+
+.TeamImage{
+  width: 250px;
+}
+
+.linkedinLogo{
+  position: absolute;
+  top: 73%;
+  right: 1%;
+  width:50px;
+}
+
+.memberName{
+  font-family: Font3;
+  font-size: 0.24em;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.memberDesignation{
+  font-family: Font4;
+  font-size: 0.18em;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.lastSection{
+  padding-top: 50px;
+   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));  
+  width: 75%;
+  margin-left: 12.5%;
+  text-align: center;
+}
+
+.valueContainer{
+  width: 400px;
+  background-color: #E9F2EE;
+  border-radius: 8px;
+  position: relative;
+  display: inline-block;
+  margin: 40px;
+}
+
+.valueHeading{
+  font-size: 0.42em;
+  font-family: Font2;
+  color: #04ADBF;
+  position: absolute;
+  top: -15%;
+  left: -10%;
+}
+
+.valueDesc{
+  font-family: Font3;
+  color: black;
+  font-size: 0.18em;
+  text-align: center;
+  padding: 50px;
 }
