@@ -28,6 +28,16 @@ const OurValues = ({valueHeading, valueDesc}) => {
   )
 }
 
+const BlueContainer = ({blueDesc}) => {
+  return(
+    <div>
+      <div className='blueContainer'>
+        <div className='blueContainerContent'>{blueDesc}</div>
+      </div>
+    </div>
+  )
+}
+
 const App = () => { 
   return (
     <div className="App">
@@ -51,15 +61,9 @@ const App = () => {
       <div className='title3'>Why Choose Us?</div>
 
       <div className='blueContainerSection'>
-        <div className='blueContainer'>
-          <div className='blueContainerContent'>India’s only patient management system for personalised care.</div>
-          </div>
-        <div className='blueContainer'>
-          <div className='blueContainerContent'>Keeps patients involved and informed in the care they receive.</div>
-          </div>
-        <div className='blueContainer'>
-          <div className='blueContainerContent'>A members-only club that helps healthcare providers simplify processes.</div>
-          </div>
+          <BlueContainer blueDesc={'India’s only patient management system for personalised care.'}></BlueContainer>
+          <BlueContainer blueDesc={'Keeps patients involved and informed in the care they receive.'}></BlueContainer>
+          <BlueContainer blueDesc={'A members-only club that helps healthcare providers simplify processes.'}></BlueContainer>
       </div>
 
       <div className='section4'>
